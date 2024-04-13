@@ -7,3 +7,9 @@ fn find_median(nums: &[i32]) -> f64 {
         nums[len / 2] as f64
     }
 }
+
+fn main() {
+    let nums = vec![1, 3, 5, 7, 9];
+    let median = find_median(&nums);
+    println!("Median: {}", median);
+}
