@@ -9,3 +9,12 @@ fn is_prime(n: u64) -> bool {
     }
     true
 }
+
+fn main() {
+    let number = 17;
+    if is_prime(number) {
+        println!("{} is a prime number", number);
+    } else {
+        println!("{} is not a prime number", number);
+    }
+}
